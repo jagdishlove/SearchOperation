@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  background: rgb(212, 204, 204);
+}
+
+.book {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 10px;
+  margin-top: 2em;
+}
+
+.books {
+  background: white;
+  border-radius: 10px;
+}
+
+.books > img {
+  height: 10em;
+}
+
+.books {
+  border: 1px solid gray;
+}
+
+h2 {
+  font-size: 13px;
+  font-weight: 500;
+  background: white;
+}
